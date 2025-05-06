@@ -1811,7 +1811,7 @@ input[type="range"]::-ms-thumb {
 }
 
 .block_5-leftside-button {
-  justify-self: center;
+  justify-items: center;
   margin-top: 15px;
 }
 .block_5-leftside-button-item {
@@ -1820,7 +1820,7 @@ input[type="range"]::-ms-thumb {
   width: 288px;
   height: 73px;
   display: flex;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
   transition-duration: 3ms;
 }
