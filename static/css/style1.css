@@ -604,7 +604,6 @@ video {
 
 /* Для экранов с шириной меньше 430px, чтобы не терять отступы */
 @media (max-width: 430px) {
-
 }
 
 .block_2 {
@@ -784,7 +783,7 @@ video {
   .block_2-content {
     padding: 15px;
   }
-  .block_2-content-txt{
+  .block_2-content-txt {
     line-height: 50px;
     font-size: 25px;
   }
@@ -803,49 +802,39 @@ video {
   .block_2-content-card-txt {
     font-size: clamp(0.9rem, 3vw, 1rem);
   }
-  .help_info-start{
+  .help_info-start {
     padding: 25px 24px;
   }
-  .help_info-support{
+  .help_info-support {
     padding: 25px 24px;
   }
 }
 
-
-
-.slider-hint{
+.slider-hint {
   display: none;
 }
 
-
-@media (max-width:1200px) {
+@media (max-width: 1200px) {
   .slider-hint {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #f3ce13;
-  color: #000;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 14px;
-  transition: opacity 0.5s;
-  font-family: "InterBold";
-  display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f3ce13;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: opacity 0.5s;
+    font-family: "InterBold";
+    display: block;
+  }
+
+  /* Подсказка исчезает при наведении */
+  .block_2-content-card:hover .slider-hint {
+    opacity: 0;
+  }
 }
-
-/* Подсказка исчезает при наведении */
-.block_2-content-card:hover .slider-hint {
-  opacity: 0;
-}
-}
-
-
-
-
-
-
-
 
 .block_3-lead-txt {
   grid-area: a;
@@ -1168,7 +1157,7 @@ video {
     font-size: 22px;
     margin-bottom: 20px;
   }
-  .block_3-button{
+  .block_3-button {
     align-self: center;
   }
 }
@@ -1261,7 +1250,6 @@ video {
   padding: 0 15px;
   width: 100%;
   justify-content: center;
-  
 }
 
 .block_4-move-card {
@@ -1402,7 +1390,7 @@ video {
   .block_4-button-item {
     max-width: 200px;
   }
-  .block_4-move{
+  .block_4-move {
     width: 90%;
     justify-self: center;
     padding: 0;
@@ -1698,21 +1686,16 @@ input[type="range"]::-ms-thumb {
   }
 }
 @media (max-width: 380px) {
-  .block_4-calculated{
+  .block_4-calculated {
     padding: 20px 10px;
   }
-  .block_4-calculated-lead-txt{
+  .block_4-calculated-lead-txt {
     font-size: 22px;
   }
-  .block_4-calculated{
+  .block_4-calculated {
     border: none;
   }
-  
 }
-
-
-
-
 
 .block_5 {
   background-color: #1d1d1d;
@@ -1811,7 +1794,8 @@ input[type="range"]::-ms-thumb {
 }
 
 .block_5-leftside-button {
-  justify-items: center;
+  display: flex;
+  justify-content: center;
   margin-top: 15px;
 }
 .block_5-leftside-button-item {
@@ -1886,8 +1870,6 @@ input[type="range"]::-ms-thumb {
 }
 @media (max-width: 480px) {
 }
-
-
 
 .column {
   display: flex;
@@ -2221,7 +2203,8 @@ input[type="range"]::-ms-thumb {
     grid-area: b;
   }
   .feedback-section-back {
-    display: block;
+    display: flex;
+    justify-content: center;
     grid-area: a;
     margin-bottom: 50px;
   }
@@ -2299,52 +2282,42 @@ input[type="range"]::-ms-thumb {
   }
 }
 @media (max-width: 480px) {
-  .help_info h1{
+  .help_info h1 {
     font-size: 32px;
   }
 }
 @media (max-width: 350px) {
-  .help_info-support{
+  .help_info-support {
     width: 90%;
   }
-  .help_info-support-info a{
+  .help_info-support-info a {
     white-space: wrap;
   }
 }
 
-
-
-@media (max-width:1200px) {
+@media (max-width: 1200px) {
   .slider-hint {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #f3ce13;
-  color: #000;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 14px;  opacity: 0.8;
-  transition: opacity 0.5s;
-  font-family: "InterBold";
-  display: block;
-  z-index: 100;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f3ce13;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0.8;
+    transition: opacity 0.5s;
+    font-family: "InterBold";
+    display: block;
+    z-index: 100;
+  }
+
+  /* Подсказка исчезает при наведении */
+  .slider-wrapper:hover .slider-hint {
+    opacity: 0;
+  }
 }
-
-/* Подсказка исчезает при наведении */
-.slider-wrapper:hover .slider-hint {
-  opacity: 0;
-}
-}
-
-
-
-
-
-
-
-
-
 
 /* Стили всплывающего окна */
 .popup {
@@ -2409,13 +2382,11 @@ footer {
     grid-template-rows: auto auto;
   }
   .footer-block-img {
-    justify-items: center;
+    display: flex;
+    justify-content: center;
     margin: 0 0 21px;
   }
 }
-
-
-
 
 .block_6 {
   margin: 0;
@@ -2432,14 +2403,13 @@ footer {
   overflow: hidden;
 }
 
-
 /* Родительский контейнер */
 .chess-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation:  5s infinite;
+  animation: 5s infinite;
   width: 1310px;
   height: 100%;
   opacity: 0;
@@ -2452,38 +2422,35 @@ footer {
   font-size: 50px;
   padding-left: 100px;
   padding-right: 100px;
-
 }
-
 
 .chess-container.active {
   opacity: 1;
   visibility: visible;
 }
 
-@keyframes OP{
-  0%{
+@keyframes OP {
+  0% {
     opacity: 0;
   }
-  50%{
+  50% {
     opacity: 1;
   }
-  100%{
+  100% {
     opacity: 0;
   }
 }
 
 /* Общие стили для каждой «строки» (ul) */
 .row {
-  display: flex;         /* Располагаем элементы (li) в одну линию */
-  gap: 100px;             /* Промежуток между городами */
-  list-style: none;      /* Убираем маркеры списка */     
+  display: flex; /* Располагаем элементы (li) в одну линию */
+  gap: 100px; /* Промежуток между городами */
+  list-style: none; /* Убираем маркеры списка */
   padding: 0;
   justify-content: center;
   margin-bottom: 50px;
   white-space: nowrap;
 }
-
 
 /* Вторая строка смещена, чтобы получился «шахматный» вид */
 .row2 {
@@ -2492,68 +2459,67 @@ footer {
   gap: 100px;
 }
 
-.list_city{
+.list_city {
   display: none;
 }
-.list_city ul{
+.list_city ul {
   padding: 0;
 }
 
-@media(max-width:1800px){
-  .chess-container{
+@media (max-width: 1800px) {
+  .chess-container {
     font-size: 48px;
   }
 }
-@media(max-width:1730px){
-  .chess-container{
+@media (max-width: 1730px) {
+  .chess-container {
     font-size: 42px;
   }
 }
-@media(max-width:1550px){
-  .chess-container{
-    
+@media (max-width: 1550px) {
+  .chess-container {
   }
-  .row{
+  .row {
     gap: 50px;
   }
 }
-@media(max-width:1410px){
-  .chess-container{
+@media (max-width: 1410px) {
+  .chess-container {
     font-size: 38px;
   }
 }
-@media(max-width:1350px){
-  .chess-container{
+@media (max-width: 1350px) {
+  .chess-container {
     font-size: 36px;
   }
-  .row{
+  .row {
     gap: 50px;
   }
 }
-@media(max-width:1230px){
-  .chess-container{
+@media (max-width: 1230px) {
+  .chess-container {
     font-size: 34px;
   }
 }
-@media(max-width:1200px){
-  .chess-container{
+@media (max-width: 1200px) {
+  .chess-container {
     font-size: 32px;
     flex-direction: row;
     gap: 50px;
   }
-  .row{
+  .row {
     flex-direction: column;
   }
 }
-@media(max-width:1000px){
-  .chess-container{
+@media (max-width: 1000px) {
+  .chess-container {
     display: none;
   }
-  .list_city ul{
+  .list_city ul {
     font-size: 42px;
     list-style: none;
   }
-  .list_city{
+  .list_city {
     display: flex;
     justify-content: center;
     align-items: start;
@@ -2561,25 +2527,25 @@ footer {
     overflow-x: hidden;
     height: 100%;
   }
-  .list_city li{
+  .list_city li {
     animation: OP 3s infinite;
     transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
   }
 }
-@media(max-width:700px){
-  .list_city ul{
+@media (max-width: 700px) {
+  .list_city ul {
     font-size: 34px;
     list-style: none;
   }
 }
-@media(max-width:500px){
-  .list_city ul{
+@media (max-width: 500px) {
+  .list_city ul {
     font-size: 34px;
     list-style: none;
   }
 }
-@media(max-width:400px){
-  .list_city ul{
+@media (max-width: 400px) {
+  .list_city ul {
     font-size: 34px;
     list-style: none;
   }
