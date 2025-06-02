@@ -9,9 +9,51 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="static/css/style1.css" />
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        for (var j = 0; j < document.scripts.length; j++) {
+          if (document.scripts[j].src === r) {
+            return;
+          }
+        }
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
+
+      ym(102335474, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/102335474"
+          style="position: absolute; left: -9999px"
+          alt=""
+        /></div
+    ></noscript>
+    <!-- /Yandex.Metrika counter -->
   </head>
   <body>
-    <!-- Шапка сайта -->
     <header class="header">
       <div class="header_logo">
         <div class="logo">
@@ -319,7 +361,6 @@
                   <div class="block_4-calculated-leftside-check-field">
                     <p>Рабочие часы в день</p>
                     <span id="hoursDisplay">8</span>
-                    <!-- Значение будет здесь -->
                   </div>
                   <div class="block_4-calculated-leftside-check-scale">
                     <input
@@ -336,7 +377,6 @@
                   <div class="block_4-calculated-leftside-check-field">
                     <p>Рабочие дни в месяц</p>
                     <span id="daysDisplay">22</span>
-                    <!-- Значение будет здесь -->
                   </div>
                   <div class="block_4-calculated-leftside-check-scale">
                     <input
@@ -911,14 +951,12 @@
               <li data-value="arkhangelsk">Архангельск</li>
             </ul>
 
-            <!-- Вторая строка (3 города, со смещением) -->
             <ul class="row row2">
               <li data-value="astrakhan">Астрахань</li>
               <li data-value="balashiha">Балашиха</li>
               <li data-value="barnaul">Барнаул</li>
             </ul>
 
-            <!-- Третья строка (4 города) -->
             <ul class="row row3">
               <li data-value="belgorod">Белгород</li>
               <li data-value="bryansk">Брянск</li>
@@ -927,7 +965,6 @@
             </ul>
           </div>
           <div class="chess-container">
-            <!-- Первая строка (4 города) -->
             <ul class="row row1">
               <li data-value="vladivostok">Владивосток</li>
               <li data-value="vladykavkaz">Владикавказ</li>
@@ -935,14 +972,12 @@
               <li data-value="volgograd">Волгоград</li>
             </ul>
 
-            <!-- Вторая строка (3 города, со смещением) -->
             <ul class="row row2">
               <li data-value="volzhsky">Волжский</li>
               <li data-value="vologda">Вологда</li>
               <li data-value="voronezh">Воронеж</li>
             </ul>
 
-            <!-- Третья строка (4 города) -->
             <ul class="row row3">
               <li data-value="vsevolozhsk">Всеволожск</li>
               <li data-value="gelendzhik">Геленджик</li>
@@ -951,7 +986,6 @@
             </ul>
           </div>
           <div class="chess-container">
-            <!-- Первая строка (4 города) -->
             <ul class="row row1">
               <li data-value="dolgoprudny">Долгопрудный</li>
               <li data-value="domodedovo">Домодедово</li>
@@ -959,14 +993,12 @@
               <li data-value="yekaterinburg">Екатеринбург</li>
             </ul>
 
-            <!-- Вторая строка (3 города, со смещением) -->
             <ul class="row row2">
               <li data-value="zheleznodorozhny">Железнодорожный</li>
               <li data-value="zhukovsky">Жуковский</li>
               <li data-value="zelenograd">Зеленоград</li>
             </ul>
 
-            <!-- Третья строка (4 города) -->
             <ul class="row row3">
               <li data-value="ivanovo">Иваново</li>
               <li data-value="ivanteevka">Ивантеевка</li>
@@ -975,7 +1007,6 @@
             </ul>
           </div>
           <div class="chess-container">
-            <!-- Первая строка (4 города) -->
             <ul class="row row1">
               <li data-value="yoshkar_ola">Йошкар-Ола</li>
               <li data-value="kazan">Казань</li>
@@ -983,14 +1014,12 @@
               <li data-value="kaluga">Калуга</li>
             </ul>
 
-            <!-- Вторая строка (3 города, со смещением) -->
             <ul class="row row2">
               <li data-value="kemerovo">Кемерово</li>
               <li data-value="kirov">Киров</li>
               <li data-value="kolomna">Коломна</li>
             </ul>
 
-            <!-- Третья строка (4 города) -->
             <ul class="row row3">
               <li data-value="kolpino">Колпино</li>
               <li data-value="korolev">Королев</li>
@@ -999,7 +1028,6 @@
             </ul>
           </div>
           <div class="chess-container">
-            <!-- Первая строка (4 города) -->
             <ul class="row row1">
               <li data-value="krasnodar">Краснодар</li>
               <li data-value="krasnoyarsk">Красноярск</li>
@@ -1007,14 +1035,12 @@
               <li data-value="kursk">Курск</li>
             </ul>
 
-            <!-- Вторая строка (3 города, со смещением) -->
             <ul class="row row2">
               <li data-value="lipetsk">Липецк</li>
               <li data-value="lobnya">Лобня</li>
               <li data-value="lyubertsy">Люберцы</li>
             </ul>
 
-            <!-- Третья строка (4 города) -->
             <ul class="row row3">
               <li data-value="magnitogorsk">Магнитогорск</li>
               <li data-value="maikop">Майкоп</li>
@@ -1023,7 +1049,6 @@
             </ul>
           </div>
           <div class="chess-container">
-            <!-- Первая строка (4 города) -->
             <ul class="row row1">
               <li data-value="murmansk">Мурманск</li>
               <li data-value="mytishchi">Мытищи</li>
@@ -1031,14 +1056,12 @@
               <li data-value="nalchik">Нальчик</li>
             </ul>
 
-            <!-- Вторая строка (3 города, со смещением) -->
             <ul class="row row2">
               <li data-value="naro_fominsk">Наро-Фоминск</li>
               <li data-value="nizhnevartovsk">Нижневартовск</li>
               <li data-value="nizhnekamsk">Нижнекамск</li>
             </ul>
 
-            <!-- Третья строка (4 города) -->
             <ul class="row row3">
               <li data-value="nizhniy_novgorod">Нижний Новгород</li>
               <li data-value="novokuznetsk">Новокузнецк</li>
@@ -1047,7 +1070,6 @@
             </ul>
           </div>
           <div class="chess-container">
-            <!-- Первая строка (4 города) -->
             <ul class="row row1">
               <li data-value="novyy_urengoy">Новый Уренгой</li>
               <li data-value="noginsk">Ногинск</li>
@@ -1055,14 +1077,12 @@
               <li data-value="odintsovo">Одинцово</li>
             </ul>
 
-            <!-- Вторая строка (3 города, со смещением) -->
             <ul class="row row2">
               <li data-value="omsk">Омск</li>
               <li data-value="orel">Орел</li>
               <li data-value="orenburg">Оренбург</li>
             </ul>
 
-            <!-- Третья строка (4 города) -->
             <ul class="row row3">
               <li data-value="penza">Пенза</li>
               <li data-value="perm">Пермь</li>
@@ -1071,7 +1091,6 @@
             </ul>
           </div>
           <div class="chess-container">
-            <!-- Первая строка (4 города) -->
             <ul class="row row1">
               <li data-value="pskov">Псков</li>
               <li data-value="putilkovo">Путилково</li>
@@ -1079,14 +1098,12 @@
               <li data-value="pushkino">Пушкино</li>
             </ul>
 
-            <!-- Вторая строка (3 города, со смещением) -->
             <ul class="row row2">
               <li data-value="pyatigorsk">Пятигорск</li>
               <li data-value="ramenskoe">Раменское</li>
               <li data-value="rasskazovka">Рассказовка</li>
             </ul>
 
-            <!-- Третья строка (4 города) -->
             <ul class="row row3">
               <li data-value="reutov">Реутов</li>
               <li data-value="rostov_na_donu">Ростов-на-Дону</li>
@@ -1095,22 +1112,18 @@
             </ul>
           </div>
           <div class="chess-container">
-            <!-- Первая строка (4 города) -->
             <ul class="row row1">
               <li data-value="sankt_peterburg">Санкт-Петербург</li>
               <li data-value="saransk">Саранск</li>
               <li data-value="saratov">Саратов</li>
               <li data-value="sergiev_posad">Сергиев Посад</li>
             </ul>
-
-            <!-- Вторая строка (3 города, со смещением) -->
             <ul class="row row2">
               <li data-value="serpukhov">Серпухов</li>
               <li data-value="smolensk">Смоленск</li>
               <li data-value="solnechnogorsk">Солнечногорск</li>
             </ul>
 
-            <!-- Третья строка (4 города) -->
             <ul class="row row3">
               <li data-value="sochi">Сочи</li>
               <li data-value="stavropol">Ставрополь</li>
@@ -1119,7 +1132,6 @@
             </ul>
           </div>
           <div class="chess-container">
-            <!-- Первая строка (4 города) -->
             <ul class="row row1">
               <li data-value="stupino">Ступино</li>
               <li data-value="surgut">Сургут</li>
@@ -1127,14 +1139,12 @@
               <li data-value="taganrog">Таганрог</li>
             </ul>
 
-            <!-- Вторая строка (3 города, со смещением) -->
             <ul class="row row2">
               <li data-value="tambov">Тамбов</li>
               <li data-value="tver">Тверь</li>
               <li data-value="tolyatti">Тольятти</li>
             </ul>
 
-            <!-- Третья строка (4 города) -->
             <ul class="row row3">
               <li data-value="tomsk">Томск</li>
               <li data-value="troitsk">Троицк</li>
@@ -1143,7 +1153,6 @@
             </ul>
           </div>
           <div class="chess-container">
-            <!-- Первая строка (4 города) -->
             <ul class="row row1">
               <li data-value="ulyanovsk">Ульяновск</li>
               <li data-value="ufa">Уфа</li>
@@ -1151,14 +1160,12 @@
               <li data-value="khanty_mansijsk">Ханты-Мансийск</li>
             </ul>
 
-            <!-- Вторая строка (3 города, со смещением) -->
             <ul class="row row2">
               <li data-value="khimki">Химки</li>
               <li data-value="cheboksary">Чебоксары</li>
               <li data-value="chelyabinsk">Челябинск</li>
             </ul>
 
-            <!-- Третья строка (4 города) -->
             <ul class="row row3">
               <li data-value="cherepovets">Череповец</li>
               <li data-value="chekhov">Чехов</li>
@@ -1167,7 +1174,6 @@
             </ul>
           </div>
           <div class="chess-container">
-            <!-- Первая строка (4 города) -->
             <ul class="row row1">
               <li data-value="shcherbinka">Щербинка</li>
               <li data-value="elektrostal">Электросталь</li>
