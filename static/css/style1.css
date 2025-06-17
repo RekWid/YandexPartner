@@ -950,6 +950,7 @@ video {
   z-index: 2;
   position: absolute; /* Фиксируем положение номера */
   left: 20px; /* Слева от текста */
+  font-family: "InterRegular";
 }
 
 .step-text {
