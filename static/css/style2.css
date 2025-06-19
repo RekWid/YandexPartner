@@ -218,9 +218,51 @@
  }
  
  body {
-   max-width: 100%;
-   overflow-x: hidden;
    width: 100%;
-   height: auto;
-   background-color: #1D1D1D;
+   height: 1000px;
+   background-image: url(../img/Background5.png);
+ }
+ .contacts{
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+ }
+ .contacts-fixed{
+  position: fixed;
+ }
+ .contacts h1{
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  font-family: "InterBold";
+  margin-bottom: 20px;
+ }
+ .contacts-card{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ }
+ .contacts-card a{
+  text-decoration: none;
+ }
+ button:hover{
+  background-color: #ffd700;
+  color: #000;
+  transition: 0.3s ease;
+ }
+ .contacts-card-item{
+  width: 300px;
+  padding-inline: 20%;
+  background-color: black;
+  border: 3px #FFD700 solid;
+  border-radius: 11px;
+  display: flex;
+  justify-content: center;
+  padding-block: 30px;
+ }
+ .contacts-card-item{
+  color: #fff;
+  font-size: 30px;
+  font-family: "InterMedium";
+  margin-inline: 30px;
  }
