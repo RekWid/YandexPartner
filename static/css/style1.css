@@ -246,8 +246,7 @@ header {
 }
 
 .logo {
-  height: 39px;
-  width: 162px;
+
 }
 .header_list-menu {
   display: flex;
@@ -361,8 +360,8 @@ header {
   }
 
   .logo {
-    height: 37px;
-    width: 154px;
+    height: 90%;
+    width: 90%;
   }
 }
 @media (max-width: 480px) {
@@ -370,8 +369,8 @@ header {
     display: none;
   }
   .logo {
-    height: 30px;
-    width: 125px;
+    height: 80%;
+    width: 80%;
   }
   header {
     padding: 0 30px;
@@ -2273,7 +2272,9 @@ input[type="range"]::-ms-thumb {
   .help_info-start {
     width: 80%;
   }
-
+  .telegram-button{
+    display: block;
+  }
   .help_info-support {
     width: auto;
     margin-inline: 30px;
