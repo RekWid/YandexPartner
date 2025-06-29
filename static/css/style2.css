@@ -218,51 +218,75 @@ span {
 }
 
 body {
+  margin: 0;
+  padding: 0;
   width: 100%;
-  height: 1000px;
+  min-height: 100vh;
   background-image: url(../img/Background5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden; /* Убирает прокрутку по X */
 }
+
 .contacts {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  padding: 100px 20px;
 }
-.contacts-fixed {
-  position: fixed;
+
+.contacts-inner {
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
 }
+
 .contacts h1 {
   color: #fff;
-  text-align: center;
   font-size: 36px;
-  font-family: "InterBold";
-  margin-bottom: 20px;
+  font-family: "InterBold", sans-serif;
+  margin-bottom: 30px;
 }
+
 .contacts-card {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .contacts-card a {
   text-decoration: none;
 }
-button:hover {
+
+.contacts-card-item {
+  width: 100%;
+  padding: 20px;
+  background-color: black;
+  border: 3px solid #ffd700;
+  border-radius: 11px;
+  color: #fff;
+  font-size: 24px;
+  font-family: "InterMedium", sans-serif;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-sizing: border-box; /* Добавлено */
+}
+
+.contacts-card-item:hover {
   background-color: #ffd700;
   color: #000;
-  transition: 0.3s ease;
 }
-.contacts-card-item {
-  width: 300px;
-  padding-inline: 20%;
-  background-color: black;
-  border: 3px #ffd700 solid;
-  border-radius: 11px;
-  display: flex;
-  justify-content: center;
-  padding-block: 30px;
+
+/* Адаптивность для мобильных */
+@media (max-width: 480px) {
+  .contacts h1 {
+    font-size: 28px;
+  }
+
+  .contacts-card-item {
+    font-size: 20px;
+    padding: 15px;
+  }
 }
-.contacts-card-item {
-  color: #fff;
-  font-size: 30px;
-  font-family: "InterMedium";
-  margin-inline: 30px;
-}
+
