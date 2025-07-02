@@ -151,9 +151,9 @@ const hourlyRates = {
     car: 538,
   },
   vsevolozhsk: {
-    on_foot: 328,
-    bicycle: 349,
-    car: 538,
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
   },
   gelendzhik: {
     on_foot: 247,
@@ -461,9 +461,9 @@ const hourlyRates = {
     car: 538,
   },
   pushkin: {
-    on_foot: 328,
-    bicycle: 349,
-    car: 538,
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
   },
   pushkino: {
     on_foot: 328,
@@ -690,6 +690,91 @@ const hourlyRates = {
     bicycle: 280,
     car: 430,
   },
+  orehovo_zuevo: {
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
+  },
+  gatchina: {
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
+  },
+  klin: {
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
+  },
+  pavlovskiy_posad: {
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
+  },
+  kotelniki: {
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
+  },
+  dubna: {
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
+  },
+  fryazino: {
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
+  },
+  viborg: {
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
+  },
+  nahabino: {
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
+  },
+  kingisepp: {
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
+  },
+  bronnici: {
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
+  },
+  litkarino: {
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
+  },
+  zvenigorod: {
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
+  },
+  voskresensk: {
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
+  },
+  yanino: {
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
+  },
+  aprelevka: {
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
+  },
+  dzerzhinskiy: {
+    on_foot: 320,
+    bicycle: 379,
+    car: 511,
+  }
 };
 
 // Переменные для хранения выбранных значений города и транспорта
