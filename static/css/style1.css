@@ -2393,7 +2393,7 @@ footer {
 .block_6 {
   margin: 0;
   font-family: InterBold;
-  background-image: url(../img/city.png);
+  background-image: url(../img/city.webp);
   color: rgb(196, 173, 44);
   text-align: center;
   padding: min(max(36px, calc(36px + 28 * (100vw - 375px) / 1065)), 64px)
