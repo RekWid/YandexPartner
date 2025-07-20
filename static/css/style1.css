@@ -1989,7 +1989,7 @@ input[type="range"]::-ms-thumb {
   flex-direction: column;
   text-align: center;
 }
-.help_info h1 {
+.help_info h2 {
   font-family: "InterBold";
   font-size: 48px;
   color: #fff;
